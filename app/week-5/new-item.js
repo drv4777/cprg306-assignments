@@ -10,16 +10,11 @@ export default function NewItem() {
         if (quantity < 20) {
             setQuantity(quantity + 1);
         }
-        else {
-        }
     };
 
         const decrement = () => {
         if (quantity > 1) {
             setQuantity(quantity - 1);
-        }
-        else {
-  
         }
     };
 
