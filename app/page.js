@@ -19,6 +19,7 @@ export default function Page() {
       <br />
       <Link href="week-9" className='text-xl font-bold'>Week 9</Link>
       <br />
+      <Link href="week-10" className='text-xl font-bold'>Week 10</Link>
       </main>
   );
 }
