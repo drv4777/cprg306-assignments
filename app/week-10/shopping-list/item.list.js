@@ -43,9 +43,9 @@ const handleClick = (value) => {
   return (
     <main>
       <div className="flex gap-2 w-100 mx-auto">
-        <button className={`font-bold border rounded-xl p-4 ${sortBy == 'name' ? "bg-green-400" : "bg-slate-200"}`} onClick={() => handleClick("name")}>Sort By Name</button>
-        <button className={`font-bold border rounded-xl p-4 ${sortBy == 'category' ? "bg-green-400" : "bg-slate-200"}`} onClick={() => handleClick("category")}>Sort By Category</button>
-        <button className={`font-bold border rounded-xl p-4 ${sortBy == 'group' ? "bg-green-400" : "bg-slate-200"}`} onClick={() => handleClick("group")}>Group By Category</button>
+        <button className={`font-bold border rounded-xl p-4 ${sortBy == 'name' ? "bg-green-400" : "bg-slate-200 hover:bg-green-200"}`} onClick={() => handleClick("name")}>Sort By Name</button>
+        <button className={`font-bold border rounded-xl p-4 ${sortBy == 'category' ? "bg-green-400" : "bg-slate-200 hover:bg-green-200"}`} onClick={() => handleClick("category")}>Sort By Category</button>
+        <button className={`font-bold border rounded-xl p-4 ${sortBy == 'group' ? "bg-green-400" : "bg-slate-200 hover:bg-green-200"}`} onClick={() => handleClick("group")}>Group By Category</button>
       </div>
       <ul className="mt-4">
         {sortBy === "group" ? (
